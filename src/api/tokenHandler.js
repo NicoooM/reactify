@@ -16,7 +16,7 @@ const tokenHandler = () => {
       }, {});
     if (hash.access_token === undefined) {
       const client_id = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
-      const redirect_uri = "https://spotify-reacttt.netlify.app/callback";
+      const redirect_uri = "https://reactify-nu.vercel.app/callback";
 
       const scopes = [
         "ugc-image-upload",
